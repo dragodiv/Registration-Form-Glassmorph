@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/heart-hands_1faf6.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>REGISTERATION FORM ~ BY DIVANSHU SONI</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h3>Registration Form</h3>
+            <form action="" class="form">
+                <input type="reset" class="reset" value="⟲">
+                <div class="form-control">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="yourname@domain.com" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="Phone" placeholder="Mobile Number" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" value="2004-02-22" required>
+                </div>
+
+                <div class="form-control">
+                    <label>Select Your Gender</label>
+                    <select name="gen" required>
+                        <option value="M">MALE</option>
+                        <option value="F">FEMALE</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="avatar">Upload Avatar</label>
+                    <input type="file" id="file" required>
+                </div>
+                <div class="form-control">
+                    <div class="hobby-section">
+                    <label>Select Your Hobbies</label>
+                    <div class="hobbies">
+                        <div class="hobby">
+                            <input type="checkbox" value="DANCE" id="agree">&nbsp;DANCE
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox" value="DRAWING" id="agree">&nbsp;DRAWING
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox" value="SKATING" id="agree">&nbsp;SKATING
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox" value="TRAVELLING" id="agree">&nbsp;TRAVELLING
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Current Coding Level</label>
+                    <select name="hobby" required>
+                        <option value="BIGGINER">BIGGINER</option>
+                        <option value="INTERMIDIATE">INTERMIDIATE</option>
+                        <option value="PROFESSIONAL">PROFESSIONAL</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Set Password" required>
+                </div>
+                <div class="form-control">
+                    <label for="c-password">Confirm Password</label>
+                    <input type="password" id="c-password" placeholder="Confirm Password" required>
+                </div>
+                <div class="check"><input type="checkbox" name="agree" id="agree" required>&nbsp;&nbsp;I Agree to&nbsp;&nbsp;<a href="#">Privacy Policy</a></div>
+                <div class="submit"><input type="submit" id="submit" value="REGISTER"></div>
+            </form>
+            <div class="credits" id="credits">
+                <p>Made with<i class="fa fa-heart" aria-hidden="true"></i>by DIVANSHU SONI</p>
+            </div>
+        </div>
+    </div>
+<span class="circle1"></span>
+
+<script src="script.js"></script>
+</body>
+</html>
